@@ -1,6 +1,6 @@
 import { randomUUID } from "crypto";
 import { response } from "express";
-import { conn } from "../dataBase/conection.js";
+import { conn } from "../dataBase/connection.js";
 
 class InsertCard {
 

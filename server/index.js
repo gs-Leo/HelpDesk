@@ -1,12 +1,6 @@
-const express = require ('express');
+import {app} from "./src/server.js";
 
 const port = 3333;
-const app = express();
-
-
-app.get('test', (req, res) => {
-    res.send({data: "Hello from server"})
-})
 
 app.listen(port, () => {
     console.log(`Server running on ${port}`);

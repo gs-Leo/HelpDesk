@@ -1,4 +1,4 @@
-import { conn } from "../dataBase/conection.js";
+import { conn } from "../dataBase/connection.js";
 
 class IndexCards {
     async index(card) {
