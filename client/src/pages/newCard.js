@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/main.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 import Sidebar from "../components/sidebar";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
@@ -14,7 +14,7 @@ export default function NewCard() {
             <main id="main" class="main">
 
                 <div class="pagetitle">
-                    <h1>New Cardr</h1>
+                    <h1>New Card</h1>
                     <nav>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>

@@ -93,7 +93,7 @@ export default function NewUser() {
                                 <button type="submit" class="btn btn-primary">Submit</button>                                
                             </div>
                         </form>
-
+ 
                     </div>
                 </div>
             </main >

@@ -30,7 +30,7 @@ export default function Profile() {
                             <div class="card">
                                 <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                                    <img src='' alt="Profile" class="rounded-circle" />
+                                    <img src="https://i.pinimg.com/564x/dd/38/66/dd38660b4bd44e7f9c2e439d7f285c76.jpg" alt="Profile" class="rounded-circle" />
                                     <h2>User Name</h2>
                                     <h3>Occupation</h3>
                                 </div>

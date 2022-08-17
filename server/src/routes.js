@@ -9,7 +9,7 @@ const Routes = Router();
 Routes.post("/RegisterUsers", 
     new RegisterUser().execute
 );
-Routes.post("/RegisterCards", 
+Routes.post("/RegisterCards",
     new RegisterCard().execute
 );
 

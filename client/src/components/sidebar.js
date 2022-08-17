@@ -29,7 +29,7 @@ export default function Sidebar() {
 
 
                 <li class="nav-item">
-                    <a class="nav-link collapsed" href="#">
+                    <a class="nav-link collapsed" href="/Users">
                         <i class="bi bi-person"><BsPersonFill/></i>
                         <span>Users</span>
                     </a>
@@ -43,7 +43,7 @@ export default function Sidebar() {
                 
                 <li class="nav-heading">Cards</li>     
                 <li class="nav-item">
-                    <a class="nav-link collapsed" href="pages-blank.html">
+                    <a class="nav-link collapsed" href="/Cards">
                         <i class="bi bi-file-earmark"><BsCardHeading/></i>
                         <span>Card List</span>
                     </a>
@@ -59,7 +59,7 @@ export default function Sidebar() {
                 <li class="nav-heading"></li>
                  
                 <li class="nav-item">
-                    <a class="nav-link collapsed" href="pages-blank.html">
+                    <a class="nav-link collapsed" href="/">
                         <i class="bi bi-file-earmark"><BsBoxArrowRight/></i>
                         <span>Sign Out</span>
                     </a>

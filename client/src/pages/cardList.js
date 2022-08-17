@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 
 
 
-export default function Users() {
+export default function Cards() {
     return (
         <div>
             <header><Navbar /></header>
@@ -38,48 +38,35 @@ export default function Users() {
                                         <thead>
                                             <tr>
                                                 <th scope="col">#</th>
-                                                <th scope="col">Name</th>
-                                                <th scope="col">Occupation</th>
-                                                <th scope="col">Email</th>
-                                                <th scope="col">Department</th>
+                                                <th scope="col">Name of User</th>
+                                                <th scope="col">Tittle</th>
+                                                <th scope="col">Category</th>
+                                                <th scope="col">Priority</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Brandon Jacob</td>
-                                                <td>Designer</td>
-                                                <td>28</td>
-                                                <td>2016-05-25</td>
+                                                <td>I can't find the Worksheet</td>
+                                                <td>Software Problems</td>
+                                                <td>Low</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Bridie Kessler</td>
-                                                <td>Developer</td>
-                                                <td>35</td>
-                                                <td>2014-12-05</td>
+                                                <td>My Pc don't turn on</td>
+                                                <td>Hardware Problems</td>
+                                                <td>High</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Ashleigh Langosh</td>
-                                                <td>Finance</td>
-                                                <td>45</td>
-                                                <td>2011-08-12</td>
+                                                <td>My connection is unstable</td>
+                                                <td>Network Problems</td>
+                                                <td>Medium</td>
                                             </tr>
-                                            <tr>
-                                                <th scope="row">4</th>
-                                                <td>Angus Grady</td>
-                                                <td>HR</td>
-                                                <td>34</td>
-                                                <td>2012-06-11</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">5</th>
-                                                <td>Raheem Lehner</td>
-                                                <td>Dynamic Division Officer</td>
-                                                <td>47</td>
-                                                <td>2011-04-19</td>
-                                            </tr>
+                                      
                                         </tbody>
                                     </table>
 
