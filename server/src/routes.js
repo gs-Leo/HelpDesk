@@ -2,7 +2,7 @@ import { Router } from "express";
 import { ConsultaCards } from "./controller/IndexCards.js";
 import { RegisterCard } from "./controller/registerCard.js";
 import { RegisterUser } from "./controller/registerUser.js";
-import { SearchCardsUser } from "./controller/SearchCardsUser.js";
+import { SearchCardsUser, SearchCardsCategoria } from "./controller/SearchCards.js";
 
 const Routes = Router();
 
@@ -18,6 +18,10 @@ Routes.get("/GetCards",
 );
 Routes.get("/GetCardsUser", 
     new SearchCardsUser().execute
+);
+
+Routes.get("/GetCardsCategoria", 
+    new SearchCardsCategoria().execute
 );
 
 export {Routes};
