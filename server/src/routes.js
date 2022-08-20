@@ -3,6 +3,7 @@ import { ConsultaCards } from "./controller/IndexCards.js";
 import { RegisterCard } from "./controller/registerCard.js";
 import { RegisterUser } from "./controller/registerUser.js";
 import { SearchCardsUser, SearchCardsCategoria } from "./controller/SearchCards.js";
+import {Login} from "./controller/Login.js";
 
 const Routes = Router();
 
@@ -22,6 +23,10 @@ Routes.get("/GetCardsUser",
 
 Routes.get("/GetCardsCategoria", 
     new SearchCardsCategoria().execute
+);
+
+Routes.post("/PostLogin", 
+    new Login().execute
 );
 
 export {Routes};
